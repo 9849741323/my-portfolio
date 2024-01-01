@@ -1,0 +1,146 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 100%;
+   
+   background-image: url(laptop.jpg); 
+background-position: center;
+background-size: cover;
+height: 100vh;
+color: white;
+background-repeat: no-repeat;
+}
+.navbar{
+    width: 1200px;
+    margin: auto;
+    height: 75px;
+}
+.icon{
+    width: 200px;
+    float: left;
+    height: 70px;
+}
+.logo{
+    color: #ff7200;
+    font-size: 35px;
+    font-family: Arial, ;
+    padding-left: 20px;
+    padding-top: 10px;
+    float: left;
+}
+.manu{
+    width: 400px;
+    float: left;
+    height: 70px;
+}
+ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    float: left;
+}
+ul li {
+  font-size: 17px;
+  margin-top: 27px;
+  margin-left: 62px;
+}
+ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-family: Arial;
+    font-weight: bold;
+}
+ul li a:hover{
+    color: orange;
+}
+.search{
+    width: 330px;
+    float: left;
+   margin-left: 270px;
+}
+.srch{
+    font-family: 'times new roman';
+    width: 40%;
+    height: 40px;
+    border: 1px solid #ff7200;
+    margin-top: 20px;
+    color: #fff;
+    border-radius: none;
+    font-size: 16px;
+    float: left;
+    padding: 10px;
+    border-radius: 5px;
+}
+.srch:hover{
+    background-color: #ff7200;
+}
+.btn{
+    width: 40%;
+    height: 40px;
+    background: #ff7200;
+    border: 2px solid #ff7200;
+    margin-top: 20px;
+    color: #fff;
+    font-size: 15px;
+    
+    float: left;
+    position: relative;
+    left: 30px;
+}
+ 
+.btn:hover{
+    background-color:rgb(50, 15, 15);
+}
+form{
+    background-color: #ff7200;
+    width: 300px;
+    height: 400px;
+    margin-top: 60px;
+    margin-left: 100px;
+}
+.login-form{
+    padding-top: 80px;
+    padding-left: 50px;
+    text-orientation: initial;
+   
+}
+
+.log{
+    border: 1px solid white;
+    padding: 30px;
+
+}
+.p{
+    margin-top: 30px;
+    margin-left: 40px;
+}
+.count{
+    margin-top: 200px;
+    margin-left: 50px;
+    font-family: serif;
+    font-size: 15px;
+    font-weight: bold;
+
+}
+.count h1{
+    color: orangered;
+    font-size: 40px;
+}
+.count h2{
+    padding-top: 10px;
+    font-size: 25px;
+}
+.count button{
+    margin-top: 10px;
+    padding: 6px;
+    border-radius: 10px;
+}
+.count button:hover{
+    background-color: #ff7200;
+}
+.logen{
+    color: #ff7200;
+}
